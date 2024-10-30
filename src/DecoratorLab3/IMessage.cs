@@ -6,7 +6,7 @@
     public interface IMessage
     {
         /// <summary>
-        /// Выводит содержимое сообщения 
+        /// Выводит текст сообщения 
         /// </summary>
         void Print();
 
