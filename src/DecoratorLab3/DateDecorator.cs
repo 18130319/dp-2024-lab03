@@ -1,5 +1,8 @@
 ﻿namespace DecoratorLab3
 {
+    /// <summary>
+    /// Декоратор для добавления даты
+    /// </summary>
     public class DateDecorator : MessageDecorator
     {
         private DateTime _date;

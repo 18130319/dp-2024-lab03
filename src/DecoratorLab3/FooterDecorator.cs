@@ -1,8 +1,11 @@
 ﻿namespace DecoratorLab3
 {
+    /// <summary>
+    /// Декоратор для добавления подписи
+    /// </summary>
     public class FooterDecorator : MessageDecorator
     {
-        public string _footer;
+        private string _footer;
 
         public FooterDecorator(IMessage message, string footer) : base(message)
         {

@@ -1,5 +1,8 @@
 ﻿namespace DecoratorLab3
 {
+    /// <summary>
+    /// Конкретная реализация базового сообщения
+    /// </summary>
     public class Message : IMessage
     {
         private string _content;

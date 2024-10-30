@@ -1,8 +1,11 @@
 ﻿namespace DecoratorLab3
 {
+    /// <summary>
+    /// Декоратор для добавления заголовка
+    /// </summary>
     public class HeaderDecorator : MessageDecorator
     {
-        public string _header;
+        private string _header;
 
         public HeaderDecorator(IMessage message, string header) : base(message)
         {

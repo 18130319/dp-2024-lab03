@@ -1,10 +1,13 @@
 ﻿namespace DecoratorLab3
 {
+    /// <summary>
+    /// Абстрактный базовый класс для всех декораторов сообщений
+    /// </summary>
     public abstract class MessageDecorator : IMessage
     {
-        public IMessage _message;
+        protected readonly IMessage _message;
 
-        public MessageDecorator(IMessage message)
+        protected MessageDecorator(IMessage message)
         {
             _message = message;
         }
